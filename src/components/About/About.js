@@ -15,7 +15,7 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className="about-role">A {role}.</h2>}
+      {role && <h2 className="about-role">{role}.</h2>}
       <p className="about-desc">{description && description}</p>
 
       <div className="about-contact center">

@@ -1,4 +1,5 @@
 import { header } from "../../info";
+import NavBar from "../NavBar/NavBar";
 import "./Header.css";
 
 const Header = () => {
@@ -19,6 +20,7 @@ const Header = () => {
           title
         )}
       </h3>
+      <NavBar />
     </header>
   );
 };
