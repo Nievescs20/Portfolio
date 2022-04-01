@@ -1,5 +1,6 @@
 const header = {
   // info that will be used in the nav bar
+  //TODO: Fill in homepage when I have a domain
   homepage: "",
   title: "CN.",
 };
