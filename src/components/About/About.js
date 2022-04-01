@@ -51,7 +51,7 @@ const About = () => {
 
             {social.email && (
               <a
-                href={social.email}
+                href={`mailto:${social.email}`}
                 aria-label="email"
                 className="link link-icon"
               >
