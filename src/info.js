@@ -1,6 +1,6 @@
 const header = {
   // info that will be used in the nav bar
-  homepage: "https://rajshekhar26.github.io/cleanfolio",
+  homepage: "",
   title: "CN.",
 };
 
@@ -8,7 +8,7 @@ const about = {
   name: "Christopher Nieves",
   role: "Software Engineer",
   description:
-    "Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium ante id mauris malesuada, et egestas ligula eleifend. Nullam sapien ligula, dignissim ac velit quis, auctor venenatis neque. Maecenas a dui vitae lorem rhoncus rutrum faucibus vitae sem. Etiam accumsan urna vel ex pulvinar commodo. Maecenas non fringilla ex. Praesent ac dui sed ipsum auctor blandit. Phasellus neque elit, accumsan et purus blandit, tempor gravida turpis. Cras fermentum porttitor turpis, nec dictum est gravida eget. Suspendisse eu augue et orci facilisis molestie.",
   resume:
     "https://drive.google.com/file/d/1KtXOz_3LIbHQkBVkq9_jPeYwIig4j6Kr/view?usp=sharing",
   social: {
