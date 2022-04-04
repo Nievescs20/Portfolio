@@ -1,5 +1,3 @@
-import { useContext } from "react";
-import { ThemeContext } from "./contexts/theme";
 import "./App.css";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";

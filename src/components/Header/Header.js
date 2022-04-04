@@ -1,5 +1,5 @@
 import { header } from "../../info";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar.js";
 import "./Header.css";
 
 const Header = () => {
