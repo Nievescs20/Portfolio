@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="center nav">
-      <ul className="nav-list">
+      <ul style={{ display: showNavList ? "flex" : null }} className="nav-list">
         {projects.length ? (
           <li className="nav-list-item">
             <a
