@@ -31,4 +31,7 @@ ThemeProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
+// console.log("Theme Provider", ThemeProvider);
+// console.log("Theme Context", ThemeContext);
+
 export { ThemeProvider, ThemeContext };
