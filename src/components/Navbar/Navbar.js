@@ -1,15 +1,21 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { projects, skills } from "../../info";
+import Brightness2Icon from "@material-ui/icons/Brightness2";
+import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
+import { ThemeContext } from "../../contexts/theme";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const { themeName, toggleTheme } = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
 
   const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
     <nav className="center nav">
-      <ul className="nav-list">
+      <ul style={{ display: showNavList ? "flex" : null }} className="nav-list">
         {projects.length ? (
           <li className="nav-list-item">
             <a
@@ -30,6 +36,24 @@ const Navbar = () => {
           </li>
         ) : null}
       </ul>
+
+      <button
+        type="button"
+        onClick={toggleTheme}
+        className="btn btn-icon nav-theme"
+        aria-label="toggle theme"
+      >
+        {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+      </button>
+
+      <button
+        type="button"
+        onClick={toggleNavList}
+        className="btn btn-icon nav-hamburger"
+        aria-label="toggle navigation"
+      >
+        {showNavList ? <CloseIcon /> : <MenuIcon />}
+      </button>
     </nav>
   );
 };

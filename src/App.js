@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { ThemeContext, ThemeProvider } from "./contexts/theme";
 import "./App.css";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
@@ -6,8 +8,10 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 
 function App() {
+  const { themeName } = useContext(ThemeContext);
+
   return (
-    <div>
+    <div id="top" className={`${themeName} app`}>
       <Header />
 
       <main>
@@ -21,4 +25,8 @@ function App() {
   );
 }
 
-export default App;
+export default () => (
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+);
