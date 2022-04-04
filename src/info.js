@@ -27,7 +27,7 @@ const projects = [
     stack: ["React", "Redux", "Leaflet"],
     sourceCode: "https://github.com/FSA-2106-Lettuce/capstone",
     livePreview: "https://flock-of-lettuce.herokuapp.com/",
-    img: "public/images/flock-img.png",
+    img: "/images/flock-app.png",
   },
   {
     name: "Caffein-E Commerce",
@@ -36,7 +36,7 @@ const projects = [
     stack: ["React", "Redux", "Sequelize"],
     sourceCode: "https://github.com/AmericoneGrizzly/graceshopper-project",
     livePreview: "https://americone.herokuapp.com/",
-    img: "public/images/caffeine-commerce-img.png",
+    img: "/images/caffeine-commerce-img.png",
   },
 ];
 
