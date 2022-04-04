@@ -6,7 +6,7 @@ const Footer = () => (
       href="https://github.com/Nievescs20/Portfolio"
       className="link footer-link"
     >
-      Created By Christopher Nieves
+      Teaching Fellow at Fullstack Academy
     </a>
   </footer>
 );
