@@ -1,7 +1,5 @@
 const header = {
-  // info that will be used in the nav bar
-  //TODO: Fill in homepage when I have a domain
-  homepage: "",
+  homepage: "https://www.chris-nieves.com",
   title: "CN.",
 };
 
@@ -27,7 +25,7 @@ const projects = [
     stack: ["React", "Redux", "Leaflet"],
     sourceCode: "https://github.com/FSA-2106-Lettuce/capstone",
     livePreview: "https://flock-of-lettuce.herokuapp.com/",
-    img: "/images/flock-app.png",
+    img: "/images/flock-app.webp",
   },
   {
     name: "Caffein-E Commerce",
@@ -36,7 +34,7 @@ const projects = [
     stack: ["React", "Redux", "Sequelize"],
     sourceCode: "https://github.com/AmericoneGrizzly/graceshopper-project",
     livePreview: "https://americone.herokuapp.com/",
-    img: "/images/caffeine-commerce-img.png",
+    img: "/images/caffeine-commerce-img.webp",
   },
 ];
 
