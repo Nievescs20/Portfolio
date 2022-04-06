@@ -14,10 +14,15 @@ const Header = () => {
         */}
         {homepage ? (
           <a href={homepage} className="link">
-            {title}
+            {/* {title}*/}
+            <img
+              src={process.env.PUBLIC_URL + "/images/favicon.png"}
+              alt="img"
+            />
           </a>
         ) : (
           title
+          // <img src={process.env.PUBLIC_URL + "/images/favicon.png"} alt="img" />
         )}
       </h3>
       <Navbar />
