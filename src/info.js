@@ -7,7 +7,7 @@ const about = {
   name: "Christopher Nieves",
   role: "Software Engineer",
   description:
-    "I am a Fullstack Developer located in New York. I have serious passion for X, Y , Z.\nWell organized person, problem solver, independent employee with high attention to detail. Fan of soccer, rock climbing and many other outdoor activities.\n Interested in fullstack development and working on ambitous projects with positive people.",
+    "I am a Fullstack Developer located in New York. I have serious passion for creating meaningful work, helping others and bringing to life new and exciting applications. Well organized person and problem solver with high attention to detail. Fan of soccer, rock climbing and many other outdoor activities. Interested in fullstack development and working on ambitous projects with positive people.",
   resume:
     "https://drive.google.com/file/d/1KtXOz_3LIbHQkBVkq9_jPeYwIig4j6Kr/view?usp=sharing",
   social: {
