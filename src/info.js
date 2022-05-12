@@ -7,13 +7,13 @@ const about = {
   name: "Christopher Nieves",
   role: "Software Engineer",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium ante id mauris malesuada, et egestas ligula eleifend. Nullam sapien ligula, dignissim ac velit quis, auctor venenatis neque. Maecenas a dui vitae lorem rhoncus rutrum faucibus vitae sem. Etiam accumsan urna vel ex pulvinar commodo. Maecenas non fringilla ex. Praesent ac dui sed ipsum auctor blandit. Phasellus neque elit, accumsan et purus blandit, tempor gravida turpis. Cras fermentum porttitor turpis, nec dictum est gravida eget. Suspendisse eu augue et orci facilisis molestie.",
+    "I am a Fullstack Developer located in New York. I have serious passion for X, Y , Z.\nWell organized person, problem solver, independent employee with high attention to detail. Fan of soccer, rock climbing and many other outdoor activities.\n Interested in fullstack development and working on ambitous projects with positive people.",
   resume:
     "https://drive.google.com/file/d/1KtXOz_3LIbHQkBVkq9_jPeYwIig4j6Kr/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/christophernieves20/",
     github: "https://github.com/Nievescs20",
-    email: "nievescs20@gmail.com",
+    email: "csn.nieves@gmail.com",
   },
 };
 

@@ -130,6 +130,8 @@ main {
 
 .btn-plain:hover {
   transform: translateY(-4px);
+  background-color: var(--clr-primary);
+  /* color: grey */
 }
 
 .btn-icon {

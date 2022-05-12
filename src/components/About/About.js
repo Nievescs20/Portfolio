@@ -10,9 +10,19 @@ const About = () => {
   return (
     <div className="about center">
       {name && (
-        <h1>
-          <span className="about-name">{name}.</span>
-        </h1>
+        <div>
+          <div className="profile-img-container">
+            <img
+              className="profile-img"
+              src={process.env.PUBLIC_URL + "/images/Beach_1.jpg"}
+              alt="profile-img"
+            />
+          </div>
+          <h1>
+            <span className="about-name">{name}.</span>
+          </h1>
+          <hr />
+        </div>
       )}
 
       {role && <h2 className="about-role">{role}.</h2>}

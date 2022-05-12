@@ -40,3 +40,16 @@
     align-items: center;
   }
 }
+
+.profile-img {
+  height:15em;
+  width: 15em;
+  border-radius: 50% 50%;
+
+}
+
+.profile-img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
