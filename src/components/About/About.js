@@ -24,7 +24,6 @@ const About = () => {
           <hr />
         </div>
       )}
-
       {role && <h2 className="about-role">{role}.</h2>}
       <p className="about-desc">{description && description}</p>
 
