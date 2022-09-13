@@ -22,19 +22,19 @@ const projects = [
     name: "flock",
     description:
       "flock is a progressive web app that aims to be the one stop shop for runners looking for group run events.",
-    stack: ["React", "Redux", "Leaflet"],
+    stack: ["React", "Redux", "Leaflet", "Socket.io"],
     sourceCode: "https://github.com/FSA-2106-Lettuce/capstone",
     livePreview: "https://flock-of-lettuce.herokuapp.com/",
     img: "/images/flock-app.webp",
   },
   {
-    name: "Caffein-E Commerce",
+    name: "Candy Co",
     description:
-      "Mock e-commerce website providing you with any and all of your caffeine needs",
-    stack: ["React", "Redux", "Sequelize"],
-    sourceCode: "https://github.com/AmericoneGrizzly/graceshopper-project",
-    livePreview: "https://americone.herokuapp.com/",
-    img: "/images/caffeine-commerce-img.webp",
+      "Mock e-commerce website providing you with any and all of your sweet tooth needs",
+    stack: ["React", "Redux", "Sequelize", "Stripe", "Tailwind"],
+    sourceCode: "https://github.com/Nievescs20/CandyCo",
+    livePreview: "https://candyco.herokuapp.com/home",
+    img: "/images/candyco-homepage.png",
   },
 ];
 
