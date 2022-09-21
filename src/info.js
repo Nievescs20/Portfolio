@@ -9,7 +9,7 @@ const about = {
   description:
     "I am a Fullstack Developer located in New York. I have serious passion for creating meaningful work, helping others and bringing to life new and exciting applications. Well organized person and problem solver with high attention to detail. Fan of soccer, rock climbing and many other outdoor activities. Interested in fullstack development and working on ambitous projects with positive people.",
   resume:
-    "https://drive.google.com/file/d/1KtXOz_3LIbHQkBVkq9_jPeYwIig4j6Kr/view?usp=sharing",
+    "https://drive.google.com/file/d/1zLXevca4Pe8ps6dHNGxYctd6CTXFgS-p/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/christophernieves20/",
     github: "https://github.com/Nievescs20",
