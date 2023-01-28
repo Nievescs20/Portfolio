@@ -36,15 +36,26 @@ const projects = [
     livePreview: "https://candyco.herokuapp.com/home",
     img: "/images/candyco-homepage.png",
   },
+  {
+    name: "Fitness-TS",
+    description:
+      "Mock gym website empowering you to be the very best version of yourself!",
+    stack: ["TypeScript", "React", "TailwindCSS"],
+    sourceCode: "https://github.com/Nievescs20/fitness-ts",
+    livePreview: "https://fitness-ts.onrender.com/",
+    img: "/images/fitness-homepage.png",
+  },
 ];
 
 const skills = [
+  "JavaScript",
+  "TypeScript",
   "HTML",
   "CSS",
-  "JavaScript",
   "React",
   "Redux",
   "Leaflet",
+  "PostgreSQL",
   "SQL",
   "Tailwind CSS",
   "Material UI",
