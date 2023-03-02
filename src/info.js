@@ -19,15 +19,6 @@ const about = {
 
 const projects = [
   {
-    name: "flock",
-    description:
-      "flock is a progressive web app that aims to be the one stop shop for runners looking for group run events.",
-    stack: ["React", "Redux", "Leaflet", "Socket.io"],
-    sourceCode: "https://github.com/FSA-2106-Lettuce/capstone",
-    livePreview: "https://flock-of-lettuce.herokuapp.com/",
-    img: "/images/flock-app.webp",
-  },
-  {
     name: "Candy Co",
     description:
       "Mock e-commerce website providing you with any and all of your sweet tooth needs",
@@ -44,6 +35,15 @@ const projects = [
     sourceCode: "https://github.com/Nievescs20/fitness-ts",
     livePreview: "https://fitness-ts.onrender.com/",
     img: "/images/fitness-homepage.png",
+  },
+  {
+    name: "flock",
+    description:
+      "flock is a progressive web app that aims to be the one stop shop for runners looking for group run events.",
+    stack: ["React", "Redux", "Leaflet", "Socket.io"],
+    sourceCode: "https://github.com/FSA-2106-Lettuce/capstone",
+    livePreview: "https://flock-of-lettuce.herokuapp.com/",
+    img: "/images/flock-app.webp",
   },
 ];
 
