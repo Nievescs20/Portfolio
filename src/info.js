@@ -19,6 +19,15 @@ const about = {
 
 const projects = [
   {
+    name: "Contracted Site For A Photographer",
+    description:
+      "IN PROGRRESS: Website for a photographer to showcase their work as well as sell videograpy and photography resources.\nCurrently waiting on products and descriptions from client",
+    stack: ["React", "Redux", "Stripe", "Tailwind"],
+    sourceCode: "https://github.com/Nievescs20/B-A",
+    livePreview: "https://b-a.onrender.com/",
+    img: "/images/Brandon.png",
+  },
+  {
     name: "Candy Co",
     description:
       "Mock e-commerce website providing you with any and all of your sweet tooth needs",
